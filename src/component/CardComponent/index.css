@@ -1,0 +1,10 @@
+.site-card-wrapper {
+    margin-left: 16px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border : 2 px solid grey !important;
+    overflow-x: hidden;
+}
+ .col{
+     text-align: center;
+ }

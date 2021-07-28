@@ -2,6 +2,7 @@ import React from 'react'
 import { Layout, Breadcrumb, Typography, Select, Tabs } from 'antd';
 import './index.css';
 import TabContent from '../TabContent';
+import CardComponent from '../CardComponent';
 
 const { Header } = Layout;
 const { Title } = Typography;
@@ -25,6 +26,8 @@ const MainComponent = () => {
 			</Breadcrumb>
 			<Title level={4} className="sheet">Sheet 1</Title>
 
+			<CardComponent />
+			
 			<Select className="dropdown-menu a" defaultValue="Custom Date Range"></Select>
 
 			<Tabs defaultActiveKey="1" onChange={callback} className="tabs">
